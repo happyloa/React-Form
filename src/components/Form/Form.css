@@ -69,3 +69,13 @@ button:hover {
   background-color: #00000000;
   color: #005c71;
 }
+
+@media (max-width: 992px) {
+  h2 {
+    font-size: 48px;
+  }
+
+  form {
+    width: 80%;
+  }
+}
