@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 
+import "./Form.css";
+
 const Form = () => {
   const [formData, setFormData] = useState({
     name: "",
@@ -40,7 +42,8 @@ const Form = () => {
 
   return (
     <div>
-      <form onSubmit={handleSubmit}>
+      <h2>React Form</h2>
+      <form className="form-container" onSubmit={handleSubmit}>
         <div>
           <label>姓名：</label>
           <input
@@ -49,6 +52,7 @@ const Form = () => {
             value={formData.name}
             onChange={handleChange}
             required
+            placeholder="請輸入姓名"
           />
         </div>
         <div>
@@ -59,6 +63,7 @@ const Form = () => {
             value={formData.email}
             onChange={handleChange}
             required
+            placeholder="請輸入 Email"
           />
         </div>
         <div>
@@ -67,7 +72,9 @@ const Form = () => {
             name="textContent"
             value={formData.textContent}
             onChange={handleChange}
+            rows="4"
             required
+            placeholder="請輸入你想傳送給我們的內容"
           />
         </div>
         <div>
@@ -78,11 +85,10 @@ const Form = () => {
             value={formData.imageUrl}
             onChange={handleChange}
             required
+            placeholder="請輸入你的圖片網址"
           />
         </div>
-        <div>
-          <button type="submit">提交</button>
-        </div>
+        <button type="submit">Submit Form</button>
       </form>
     </div>
   );
