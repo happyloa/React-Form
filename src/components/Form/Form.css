@@ -79,3 +79,11 @@ button:hover {
     width: 80%;
   }
 }
+
+@media (max-width: 576px) {
+  form {
+    width: 90%;
+    padding: 45px 35px;
+    gap: 40px;
+  }
+}
