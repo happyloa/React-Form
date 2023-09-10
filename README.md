@@ -32,6 +32,7 @@ Express 伺服器的啟動檔案是專案內的 server.js，等到所有套件�
 - [axios](https://github.com/axios/axios)
 - [body-parser](https://github.com/expressjs/body-parser)
 - [cors](https://expressjs.com/en/resources/middleware/cors.html)
+- [dotenv](https://github.com/motdotla/dotenv)
 - [express](https://expressjs.com/zh-tw/)
 - [http-proxy-middleware](https://github.com/chimurai/http-proxy-middleware)
 - [mongodb](https://www.npmjs.com/package/mongodb)
