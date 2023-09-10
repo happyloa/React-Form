@@ -52,7 +52,7 @@ const Form = () => {
             value={formData.name}
             onChange={handleChange}
             required
-            placeholder="請輸入姓名"
+            placeholder="請輸入姓名（必填）"
           />
         </div>
         <div>
@@ -63,7 +63,7 @@ const Form = () => {
             value={formData.email}
             onChange={handleChange}
             required
-            placeholder="請輸入 Email"
+            placeholder="請輸入 Email（必填）"
           />
         </div>
         <div>
