@@ -9,6 +9,7 @@
     npm install
 
 安裝需要的套件。
+
 接著，輸入：
 
     npm start
@@ -26,6 +27,10 @@ Express 伺服器的啟動檔案是專案內的 server.js，等到所有套件�
     node src/server.js
 
 來讓 Express 啟動監聽程序。
+
+## 如何加入 MongoDB Atlas URI？
+
+複製一個專案內的 `.env.example` 檔案，並將其改為 `.env`，接著，將 URI 放到裡面，即可完成 URI 的引入。
 
 ### 使用的第三方套件：
 
