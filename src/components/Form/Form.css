@@ -52,13 +52,13 @@ textarea:focus {
 button {
   width: 100%;
   border: 3px solid #005c71;
-  border-radius: 5px;
+  border-radius: 25px;
   background-color: #005c71;
   color: #fff;
   cursor: pointer;
   font-size: 18px;
   font-weight: bold;
-  padding: 13px 25px;
+  padding: 10px;
   transition: all 0.3s ease-in;
 }
 
