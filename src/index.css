@@ -44,9 +44,7 @@
 }
 
 body {
-  background-image: url("./assets/background-image.webp");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
+  background: url("./assets/background-image.webp") no-repeat center center /
+    cover;
   height: 100vh;
 }
