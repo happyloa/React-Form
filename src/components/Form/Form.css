@@ -31,12 +31,13 @@ input,
 textarea {
   border: 0px;
   border-bottom: 2px solid #282a2d;
-  border-radius: 5px;
+  border-radius: 25px;
   background-color: #00000000;
   color: #005c71;
   font-size: 16px;
   font-weight: bold;
   width: 100%;
+  max-width: 100%;
   padding: 13px 25px;
   transition: all 0.3s ease-in;
 }
