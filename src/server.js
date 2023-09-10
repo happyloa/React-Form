@@ -1,6 +1,9 @@
 const express = require("express");
 const mongoose = require("mongoose");
 const bodyParser = require("body-parser");
+const dotenv = require("dotenv"); // 引入dotenv套件
+
+dotenv.config(); // 載入.env檔案中的環境變數
 
 const app = express();
 const port = 5000;
@@ -8,7 +11,7 @@ const port = 5000;
 app.use(bodyParser.json());
 
 mongoose.connect(
-  "mongodb+srv://Aaron:Baby0225@testingcluster1.bsde6bk.mongodb.net/test?retryWrites=true&w=majority",
+  process.env.MONGODB_URI, // 使用環境變數取得MongoDB URI
   {
     useNewUrlParser: true,
     useUnifiedTopology: true,
