@@ -73,7 +73,6 @@ const Form = () => {
             value={formData.textContent}
             onChange={handleChange}
             rows="4"
-            required
             placeholder="請輸入你想傳送給我們的內容"
           />
         </div>
@@ -84,7 +83,6 @@ const Form = () => {
             name="imageUrl"
             value={formData.imageUrl}
             onChange={handleChange}
-            required
             placeholder="請輸入你的圖片網址"
           />
         </div>
