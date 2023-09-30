@@ -30,7 +30,7 @@ const DataSchema = new mongoose.Schema({
   imageUrl: String,
 });
 
-const DataModel = mongoose.model("Data", DataSchema);
+const DataModel = mongoose.model("react-form-data", DataSchema);
 
 app.post("/api/submit", async (req, res) => {
   const { name, email, textContent, imageUrl } = req.body;
